@@ -19,8 +19,8 @@ PFont fontMd;
 
 void setup() {
   
-  // price = loadTable("coin_value_0929.csv", "header");      // 엑셀 불러오기
-  price = loadTable("coin_value_0930.csv", "header");
+  // price = loadTable("coin_value_0929.csv", "header");      // 1일차 엑셀 불러오기
+  price = loadTable("coin_value_0930.csv", "header");       // 2일차 엑셀 불러오기
   load_backup();      // 백업 불러오기
   
   udp_server.start();
